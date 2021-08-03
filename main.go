@@ -34,8 +34,7 @@ var Config string = `
     allowNum        = 99 #允许添加账号的最大数量,-1为不限制
     dumpRouterMap   = false #路由显示，无需更改
     cookieAutoCheck = 0 #自动检测所有cookie并进行失效删除/禁用，0为不检测，1为失效禁用，2为失效删除(每个小时检测一次)
-    UA              = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/2.14.0 main/1.0 baiduboxapp/11.18.0.16 (Baidu; P2 13.3.1) NABar/0.0"
-
+    UA              = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/2.14.0 main%2F1.0 baiduboxapp/11.18.0.16 (Baidu; P2 13.3.1) NABar/0.0"
 #web服务设置
 [server]
     address         = ":5701" #端口号设置
